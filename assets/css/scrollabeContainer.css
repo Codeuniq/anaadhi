@@ -1,0 +1,84 @@
+.menu-list-scroll {
+    height: 410px;
+    overflow: auto;
+    margin: 0 auto;
+    /* padding: 3em; */
+    top: 0;
+    font: 100%/1.4 serif;
+}
+/* background: whitesmoke; */
+/* width: 80%; */
+/* max-width: 600px; */
+/* border: 1px solid rgba(0,0,0,0.25) */
+  
+
+/* p {
+    margin: 0 0 1.5em;
+  } */
+
+/* .menu-list-scroll {
+    height: 300px;
+} */
+
+.menu-list-scroll::-webkit-scrollbar {
+    /* width: 0.2em; */
+    display: none;
+}
+/* 
+.menu-list-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0);
+    background-clip: content-box;
+}
+ 
+.menu-list-scroll::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
+ 
+/* .menu-list-scroll {
+    overflow: auto;
+    height: 410px;
+  } */
+  
+  /* .ss-wrapper {
+      overflow : hidden;
+      height   : 100%;
+      position : relative;
+      z-index  : 1;
+      float: left;
+  } */
+  
+  /* .ss-content {
+      height          : 100%;
+      /* width           : 100%; */
+      /* padding         : 0 32px 0 0; */
+      /* position        : relative; */
+      /* right           : -18px; */
+      /* overflow        : auto; */
+      /* -moz-box-sizing : border-box; */
+      /* box-sizing      : border-box; */
+  /* } */
+  
+  /* .ss-scroll {
+    position            : relative;
+    background          : rgba(255, 255, 255, 0.1);
+    width               : 3px;
+    border-radius       : 4px;
+    top                 : 0;
+    z-index             : 2;
+    opacity: 0;
+    transition: opacity 0.25s linear;
+} */
+/* cursor              : pointer; */
+  
+  /* .ss-container:hover .ss-scroll {
+    opacity: 0.5;
+  }
+  
+  .ss-grabbed {
+       user-select: none;
+       -o-user-select: none;
+       -moz-user-select: none;
+       -khtml-user-select: none;
+       -webkit-user-select: none;
+  } */
