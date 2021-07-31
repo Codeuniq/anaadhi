@@ -1,0 +1,32 @@
+<html>
+<head>
+<title></title>
+<head>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
+</head>
+<body>
+<div id="footer12"></div>
+<script> 
+// $(function(){
+// 	console.log("test1");
+// 	$("#footer12").load("footer.html");
+// 	console.log("test2")
+// });
+$(document).ready(function(){
+	console.log("testss");
+	$("#footer12").load("footer.html",function(response, status) {
+        /* Optional, but consider revising this function to alert on error */
+        console.log(response);
+        if(status === 'error') {
+            alert("Failed to load menu.html");
+        }
+        else {
+            alert("Success!");
+        }
+    });
+})
+</script> 
+</body>
+</html>
