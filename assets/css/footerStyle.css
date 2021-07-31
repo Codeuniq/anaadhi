@@ -1,0 +1,17 @@
+#footerLeft {
+    text-align: left;
+}
+
+#footerRight {
+    text-align: right;
+}
+
+/* Footer center */
+@media screen and (max-width:640px) {
+    #footerRight {
+        text-align: center;
+    }
+    #footerLeft {
+        text-align: center;
+    }
+}
